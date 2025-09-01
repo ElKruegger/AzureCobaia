@@ -1,4 +1,4 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -8,7 +8,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-app.MapGet("/", () => "?? API rodando no Azure!");
 
 
 // Configure the HTTP request pipeline.
@@ -22,6 +21,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapGet("/", () => "🚀 API rodando no Azure!!");
 app.MapControllers();
 
 app.Run();

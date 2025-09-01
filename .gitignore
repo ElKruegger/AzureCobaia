@@ -1,12 +1,14 @@
-﻿# Build e temporários
+﻿# Build/Publish
 bin/
 obj/
+publish/
+**/bin/
+**/obj/
+**/publish/
+artifacts/
+*.zip
+*.nupkg
+
+# VS/SDK
 .vs/
-*.user
-*.suo
-
-# Configurações locais
-appsettings.Development.json
-
-# Logs
-*.log
+GeneratedFiles/
