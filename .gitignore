@@ -1,0 +1,12 @@
+﻿# Build e temporários
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Configurações locais
+appsettings.Development.json
+
+# Logs
+*.log
