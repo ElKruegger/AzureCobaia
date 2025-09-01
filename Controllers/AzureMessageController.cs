@@ -18,7 +18,7 @@ namespace CobaiaAzure.Controllers
             [HttpGet("hello")]
             public IActionResult GetHello()
             {
-                return Ok(new { Mensagem = "Don't bother, im studying how destroy your world." });
+                return Ok(new { Mensagem = "Don't bother, im studying how destroy your world.." });
             }
     }
 }
